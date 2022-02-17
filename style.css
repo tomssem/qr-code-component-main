@@ -1,0 +1,13 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.qr-img {
+    width: 90%;
+}
