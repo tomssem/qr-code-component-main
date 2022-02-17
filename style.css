@@ -1,13 +1,37 @@
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 1% 10%;
+    margin-top: 0;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
 }
 
 .card-container {
-    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 320px;
     margin: auto;
     text-align: center;
 }
 
 .qr-img {
+    border-radius: 20px;
     width: 90%;
+    margin: 5%;
+}
+
+.instruction-txt-container {
+    padding: 0 0px;
+    padding-bottom: 20px;
 }
